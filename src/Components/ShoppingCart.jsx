@@ -27,7 +27,7 @@ const handleRemoveItem = itemId => {
 
   return (
    <>
-   <pre>{JSON.stringify(cartItems, null, 2)}</pre>
+
     <div className="shopping-cart">
       <h2 className="shopping-cart-title">Shopping Cart</h2>
       <ul className="cart-items">
